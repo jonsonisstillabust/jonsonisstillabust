@@ -1,0 +1,105 @@
+#header{
+
+	font-size: 50px;
+	text-align: center;
+	font-family: Comic Sans MS;
+	background-color: RoyalBlue;
+	color: GhostWhite;
+	animation: pulseColor 2s infinite alternate ease-in-out;
+}
+
+#nav a{
+	font-size: 20px;
+	text-align: center;
+	font-family: Comic Sans MS;
+	background-color: #ebffff;
+	color: RoyalBlue;
+	border: 4px solid #325AD2;
+	border-radius: 17px;
+	padding:7px;
+	margin:15px;
+	text-decoration: none;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	display:inline-block
+}
+
+#nav{
+	
+	text-align: center;
+}
+
+
+	 
+#nav a:hover{
+	transform: scale(1.2);
+	background-color:#325AD2;
+	color:GhostWhite;
+	box-shadow: 0 0 20px #325AD2;
+	
+}
+
+#intro{
+	font-family: Comic Sans MS;
+	font-size: 20px;
+	padding: 7px;
+	margin: 10px;
+	border: 4px solid RoyalBlue;
+	border-radius: 17px;
+	background-color: #ebffff;
+}
+
+#introHead{
+	text-align:center;
+	color: GhostWhite;
+	background-color: RoyalBlue;
+	font-family: Comic Sans MS;
+	font-size: 35px;
+	text-shadow: 2px 2px MidnightBlue;
+	
+}
+
+@keyframes pulseColor {
+  from {
+    color: GhostWhite;
+  }
+  to {
+    color: #ebffff;
+    text-shadow: 4px 4px 20px GhostWhite;
+  }
+}
+
+#opening{
+	text-align:center;
+	font-family: Comic Sans MS;
+	font-size: 25px;
+	background-color:GhostWhite;
+	animation: pulseColor2 2s infinite alternate ease-in-out;
+
+}
+
+#body{
+	background-color:GhostWhite;
+}
+
+#crimeList{
+	text-align: center;
+	font-family: Comic Sans MS;
+	font-size: 20px;
+}
+
+#crimeList p:nth-child(even) {
+	background-color: #ebffff
+}
+
+@keyframes pulseColor2 {
+  from {
+    color: black;
+  }
+  to {
+    color: MidnightBlue;
+    text-shadow: 4px 4px 20px black;
+  }
+}
+	 
+
+
